@@ -6,9 +6,5 @@ main:
     url: https://99robong.github.io
   - title: "test"
     url: /docs/quick-start-guide/
-  - title: "Sample Posts"
-    url: /year-archive/
-  - title: "Sample Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+  - title: "categories"
+    url: /categories/
