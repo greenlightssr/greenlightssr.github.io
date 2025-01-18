@@ -1,5 +1,5 @@
 ---
 layout: archive
-title: "clean code"
+title: "clean-code"
 permalink: /tags/clean-code
 ---
