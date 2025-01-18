@@ -4,7 +4,7 @@ main:
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
     url: https://99robong.github.io
-  - title: "test"
-    url: /docs/quick-start-guide/
+  - title: "tags"
+    url: /tags/
   - title: "categories"
     url: /categories/
