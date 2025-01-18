@@ -113,14 +113,14 @@ analytics:
 # Site Author
 author:
   name: "Junoh Shin"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/junoh-shin.jpg"
   bio: "I am an **amazing** person."
   location: "Somewhere"
   email:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:junoh9911@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
