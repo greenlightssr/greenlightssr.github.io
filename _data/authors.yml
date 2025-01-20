@@ -14,3 +14,20 @@ junoh_shin:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/99robong"
+
+
+Kim Doyoon:
+  name        : "Kim doyoon"
+  bio         : "안녕하세요"
+  avatar      : "/docs/assets/images/bio-photo.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "ehdbs425@naver.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://kdy425.github.io/doyoon.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kdy425"
+
