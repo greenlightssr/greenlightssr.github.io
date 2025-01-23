@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: "clean-code"
+title: "clean code"
 permalink: /tags/clean-code
 tags:
   - clean code
