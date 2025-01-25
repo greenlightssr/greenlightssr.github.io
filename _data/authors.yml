@@ -29,3 +29,18 @@ doyoon:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kdy425"
+      
+donghyeon:
+  name: "Hwang Donghyeon"
+  bio: "잘부탁드려요"
+  avatar: "/assets/images/users/bio-photo.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "aaabbb4202@naver.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/DongHyeonHDH"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/DongHyeonHDH"
