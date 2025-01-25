@@ -116,6 +116,10 @@ author:
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "SK Shilders Rookies 그린 팀 몇 명의 블로그입니다."
   location: "2, Toegye-ro 36-gil, Jung-gu"
+  name: "Junoh Shin"
+  avatar: "/assets/images/junoh-shin.jpg"
+  bio: "I am an **amazing** person."
+  location: "Somewhere"
   email:
   links:
     - label: "Email"
@@ -148,6 +152,8 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
+      url: "https://github.com/greenlightssr/greenlightssr.github.io"
+      url: "https://github.com/99robo
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
