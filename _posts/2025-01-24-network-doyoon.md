@@ -7,7 +7,7 @@ categories:
   - sys/net security
 author: doyoon
 sidebar:
-nav: "categories"
+  nav: "categories"
 ---
 
 # 네트워크 보안 정리
