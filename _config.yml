@@ -137,6 +137,11 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
+collections:
+  authors:
+    output: true
+    permalink: /authors/:path/
+
 # Site Footer
 footer:
   links:

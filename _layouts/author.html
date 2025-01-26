@@ -1,27 +1,46 @@
-<!-- _layouts/author.html -->
-
 ---
-layout: default
+layout: archive
 ---
 
-<h1>{{ page.author.name }}</h1>
-<img src="{{ page.author.avatar }}" alt="{{ page.author.name }}" class="author-avatar" />
-<p>{{ page.author.bio }}</p>
+{% assign author = site.data.authors[page.author] %}
+{% assign author_key = page.author %}
+
+<h1>{{ author.name }}</h1>
+<img src="{{ author.avatar }}" alt="{{ author.name }}" class="author-avatar" />
+<p>{{ author.bio }}</p>
 <p class="social-links">
-  {% for link in page.author.links %}
+  {% for link in author.links %}
     <a href="{{ link.url }}" target="_blank">
       <i class="{{ link.icon }}"></i> {{ link.label }}
     </a>
   {% endfor %}
 </p>
 
-<h2>작성한 포스트</h2>
-<ul>
-  {% for post in site.posts %}
-    {% if post.author == page.author_key or (post.authors and post.authors contains page.author_key) %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
-      </li>
-    {% endif %}
+<!-- 작성한 포스트 수 계산 -->
+{% assign author_posts = site.posts | where: "author", author_key %}
+<h2>작성한 포스트 ({{ author_posts | size }})</h2>
+
+<!-- 카테고리별로 포스트 그룹화 -->
+{% assign categories = "" | split: "," %}
+
+{% for post in author_posts %}
+  {% for category in post.categories %}
+    {% unless categories contains category %}
+      {% assign categories = categories | push: category %}
+    {% endunless %}
   {% endfor %}
-</ul>
+{% endfor %}
+
+<!-- 카테고리별 포스트 목록 표시 -->
+{% for category in categories %}
+  <h3>{{ category }}</h3>
+  <ul>
+    {% for post in author_posts %}
+      {% if post.categories contains category %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}

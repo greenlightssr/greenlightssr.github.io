@@ -9,13 +9,13 @@ layout: archive
   {% assign author = authorKV[1] %}
   <div class="author">
     <div class="author__avatar">
-      <a href="{{ author.home | default: '/authors/' | absolute_url }}">
+      <a href="{{ '/authors/' | append: author_key | relative_url }}">
         <img src="{{ author.avatar | relative_url }}" width="150" height="150" alt="{{ author.name }}" itemprop="image" class="u-photo author-avatar">
       </a>
     </div>
     <div class="author__content">
       <h2 class="author__name p-name" itemprop="name">
-        <a class="u-url" rel="me" href="{{ author.home | default: '/authors' | absolute_url }}" itemprop="url">{{ author.name }}</a>
+        <a class="u-url" rel="me" href="{{ '/authors/' | append: author_key | relative_url }}" itemprop="url">{{ author.name }}</a>
       </h2>
       {% if author.bio %}
         <p class="author__bio p-note" itemprop="description">{{ author.bio | markdownify }}</p>
