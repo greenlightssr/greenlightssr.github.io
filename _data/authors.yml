@@ -34,3 +34,15 @@ imjia:
   name: "Jiah Lim"
   bio: "안녕하세요!"
   avatar: "/assets/images/users/lim.jpg"
+
+seonyeong:
+  name: "Seonyeong Byun"
+  bio: "안녕하세요 공부합시다"
+  avatar: "/assets/images/users/seonyeong.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "seondori9@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/byunseonyeong"
