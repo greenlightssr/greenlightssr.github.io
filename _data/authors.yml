@@ -44,3 +44,9 @@ Jiseung:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/klvlo"
+      
+imjia:
+  name: "Jiah Lim"
+  bio: "안녕하세요!"
+  avatar: "/assets/images/users/lim.jpg"
+

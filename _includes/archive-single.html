@@ -30,10 +30,10 @@
       {% assign author = site.data.authors[post.author] | default: author %}
       <div style="text-align: right">
         <div class="author__avatar">
-          <a href="{{ author.home | default: '/' | absolute_url }}">
+          <a href="{{ '/authors/' | append: post.author | relative_url }}">
             <img src="{{ author.avatar | relative_url }}" width="50" height="50" alt="{{ author.name }}" itemprop="image" class="u-photo">
           </a>
-          <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">{{ author.name }}</a>
+          <a class="u-url" rel="me" href="{{ '/authors/' | append: post.author | relative_url  }}" itemprop="url">{{ author.name }}</a>
         </div>
       </div>
     {% endif %}

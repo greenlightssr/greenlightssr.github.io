@@ -33,7 +33,7 @@ id: // 소문자, 언더스코어만 가능, 띄어쓰기 불가.<br>
 // 띄어쓰기 두칸 씩 탭 잘 맞춰야 합니다.<br>
 &nbsp;&nbsp;name: "" // 이름입니다.<br>
 &nbsp;&nbsp;bio: "" // 설명입니다.<br>
-&nbsp;&nbsp;avatar: "" // 프로필 이미지입니다. /assets/images/ 안에 파일 넣고 경로 입력하시면 됩니다.<br>
+&nbsp;&nbsp;avatar: "" // 프로필 이미지입니다. `/assets/images/` 안에 파일 넣고 경로 입력하시면 됩니다.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;links: // 각자 링크 형식에 맞춰 넣으시면 됩니다. 없으시면 입력 안하시면 됩니다.
 
 #### 2) post header에 추가하기
@@ -43,11 +43,14 @@ id: // 소문자, 언더스코어만 가능, 띄어쓰기 불가.<br>
 
 #### 3) 본인이 작성한 포스트 목록 보기
 
-> 업데이트 예정입니다...
+![add author.md](/assets/images/posts/about/add-author-md.png)<br>
+`/_pages/users/`에 본인 이름으로 파일 하나 만드시고<br>
+위와 같이 작성해주시면 됩니다.<br>
+author와 premalink에는 본인 id를 정확히 입력하셔야 합니다.
 
-### 2./\_posts/에 글 쓰기
+### 2.`/_posts/`에 글 쓰기
 
-/\_posts/ 폴더 아래에 yyyy-mm-dd-title.md 형식으로 파일을 만들어줍니다.<br>
+`/_posts/` 폴더 아래에 yyyy-mm-dd-title.md 형식으로 파일을 만들어줍니다.<br>
 yyyy-mm-dd는 작성 날짜이고 title은 주소가 됩니다.<br>
 이 포스트의 경우, 주소는 [https://greenlightssr.github.io/about/about-blog/]가 됩니다.<br>
 
@@ -55,7 +58,7 @@ yyyy-mm-dd는 작성 날짜이고 title은 주소가 됩니다.<br>
 
 위의 author 부분 말고 다른 부분도 직접 설정할 수 있습니다.<br>
 ![post header](/assets/images/posts/about/post-header.png)<br>
-layout: /\_layout/ 폴더 아래에 있는 여러가지 layout을 사용할 수 있습니다.<br>
+layout: `/_layout/` 폴더 아래에 있는 여러가지 layout을 사용할 수 있습니다.<br>
 title: "" 사이트에서 보일 포스트의 제목입니다.<br>
 date: 글을 최초 작성한 날짜입니다.<br>
 last_modified_at: 글을 마지막으로 수정한 날짜입니다.<br>
@@ -63,9 +66,9 @@ last_modified_at: 글을 마지막으로 수정한 날짜입니다.<br>
 `날짜들은 현재 날짜보다 미래를 설정하면 업로드가 되지 않을 수 있습니다. 새벽에 포스트를 업로드할 경우 바뀐 날짜로 업로드하면 업로드가 되지 않을 수 있습니다.`
 
 categories: 여러개를 설정할 수 있습니다. 하나만 설정하는 것을 권장합니다.<br>
-/\_pages/categories/ 아래에 카테고리를 만들 수 있습니다.<br>
+`/_pages/categories/` 아래에 카테고리를 만들 수 있습니다.<br>
 tags: 여러개를 설정할 수 있습니다.<br>
-/\_pages/tags/ 아래에 태그를 만들 수 있습니다.<br>
+`/_pages/tags/` 아래에 태그를 만들 수 있습니다.<br>
 author: 글쓴이를 설정할 수 있습니다.<br>
 sidebar: 포스트 왼쪽에 무엇을 표시할지 정할 수 있습니다. 글쓴이 정보는 기본으로 설정되어있습니다.<br>
 &nbsp;&nbsp;nav: "category" 카테고리를 표시할 수 있습니다.<br>
@@ -132,5 +135,5 @@ $ bundle exec jekyll serve
 
 를 통해 사이트를 서버에 올립니다.<br>
 이제 127.0.0.1:4000에서 실제 블로그와 내 포스트가 어떻게 보일지를 확인 할 수 있습니다.
-
+.
 > 계속 업데이트 중입니다...
