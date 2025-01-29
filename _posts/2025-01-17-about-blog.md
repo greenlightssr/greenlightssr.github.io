@@ -2,7 +2,7 @@
 layout: single
 title: "스터디 사용법..."
 date: 2025-01-17
-last_modified_at: 2025-01-23
+last_modified_at: 2025-01-29
 categories:
   - about
 author: junoh_shin
