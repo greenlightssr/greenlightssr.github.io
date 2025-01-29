@@ -8,6 +8,8 @@ categories:
 author: junoh_shin
 sidebar:
   nav: "categories"
+toc: true
+toc_sticky: true
 ---
 
 ## 블로그 사용볍
