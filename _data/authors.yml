@@ -50,3 +50,7 @@ imjia:
   bio: "안녕하세요!"
   avatar: "/assets/images/users/lim.jpg"
 
+hyuna:
+  name: "Hyuna Song"
+  bio: "안녕하세요!"
+  avatar: "/assets/images/users/hyuna.jpg"
