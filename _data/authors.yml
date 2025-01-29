@@ -29,8 +29,24 @@ doyoon:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kdy425"
+
+Jiseung:
+  name: "Jiseung Hong"
+  bio: "안녕하세요.<br>저는 느리더라도 멈추지 않고 성장하는 것을 추구합니다.<br>다 같이 파이팅 합시다."
+  avatar: "/assets/images/users/jiseung.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "jejuhjs@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://jejuhjs.tistory.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/klvlo"
       
 imjia:
   name: "Jiah Lim"
   bio: "안녕하세요!"
   avatar: "/assets/images/users/lim.jpg"
+

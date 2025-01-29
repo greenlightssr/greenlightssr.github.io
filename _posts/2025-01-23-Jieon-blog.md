@@ -5,7 +5,7 @@ date: 2025-01-24
 last_modified_at: 2025-01-22
 categories:
   - test
-author: jieon-yang
+author: junoh_shin
 sidebar:
   nav: "categories"
 ---
