@@ -2,12 +2,14 @@
 layout: single
 title: "스터디 사용법..."
 date: 2025-01-17
-last_modified_at: 2025-01-23
+last_modified_at: 2025-01-29
 categories:
   - about
 author: junoh_shin
 sidebar:
   nav: "categories"
+toc: true
+toc_sticky: true
 ---
 
 ## 블로그 사용볍
@@ -18,6 +20,50 @@ sidebar:
 기본적으로 블로그를 블로그처럼 만드는데 대부분의 기능은 지원이 되지만<br>
 그걸 알아야 쓸 수 있기 때문에<br>
 어떤 걸 할 수 있는지 하나씩 알아보려고 합니다.
+
+### 0. 브랜치 설정
+
+여러 명이 사용하는 레포지토리이기 때문에<br>
+모두가 메인 브랜치를 사용하지 않고, 각자의 브랜치를 만들어서 사용합니다.<br>
+
+#### 1) 클론하기
+
+```Shell
+git clone https://github.com/greenlightssr/greenlightssr.github.io
+git checkout -b user/본인이름
+```
+
+이후 만들어진 브랜치에서 모든 작업을 실행하면 됩니다.<br>
+앞으로의 모든 작업 본인 이름으로 만든 브랜치에서 실행하시면 됩니다.<br>
+이후 [아래로](#1-글쓴이-정보-설정) 내려가서 글쓰기 혹은 정보 수정 작업 완료 하신 후, <br>
+다시 여기로 돌아와서 커밋 남기고 이어서 작업하시면 됩니다.<br>
+
+#### 2) 커밋 남기기
+
+```Shell
+git add .
+git commit -m "커밋 메시지" # 쓰고 싶은 말 쓰시면 됩니다.
+git push origin user/본인이름
+```
+
+글을 작성한 후, 커밋을 남기고 본인 이름으로 된 브랜치에 올리시면 됩니다.<br>
+커밋 내용은 아무말이나 써도 되지만, 보통 본인이 어떤걸 했는지 작성합니다.<br>
+
+#### 3) 풀 리퀘스트 보내기
+
+이제 [깃허브](https://github.com/greenlightssr/greenlightssr.github.io)로 가서 <br>
+풀리퀘스트 창으로 가서 New pull request 버튼을 누릅니다.<br>
+혹은 push 이후 메인페이지를 보면<br>
+![pull request](/assets/images/posts/about/pull-request.png)<br>
+풀리퀘스트를 하라고 뜹니다. Compare & pull request 버튼을 눌러줍니다.<br>
+<br>
+![pull requests error](/assets/images/posts/about/pull-request-error.png)<br>
+기분나쁜 빨간 글씨가 뜨는데, <br>
+base repository를 `greenlightssr/greenlightssr.github.io`로 하면<br>
+Able to merge가 뜹니다. (compare는 본인이 사용하던 branch를 선택합니다.)<br>
+이제 여기에도 본인이 쓰고 싶은 말을 쓰고<br>
+create pull request 버튼을 누르면 풀리퀘스트가 생성됩니다.<br>
+이제 누군가가 pull request를 approve하면 포스팅이 완료됩니다.<br>
 
 ### 1. 글쓴이 정보 설정
 
@@ -135,5 +181,7 @@ $ bundle exec jekyll serve
 
 를 통해 사이트를 서버에 올립니다.<br>
 이제 127.0.0.1:4000에서 실제 블로그와 내 포스트가 어떻게 보일지를 확인 할 수 있습니다.
-.
+.<br>
+이제 다시 [커밋 남기기](#2-커밋-남기기)로 돌아가서 포스팅을 완료할 수 있습니다.
+
 > 계속 업데이트 중입니다...
