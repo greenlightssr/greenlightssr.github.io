@@ -29,18 +29,50 @@ doyoon:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kdy425"
-      
-donghyeon:
-  name: "Hwang Donghyeon"
-  bio: "잘부탁드려요"
-  avatar: "/assets/images/users/bio-photo.jpg"
+
+Jiseung:
+  name: "Jiseung Hong"
+  bio: "안녕하세요.<br>저는 느리더라도 멈추지 않고 성장하는 것을 추구합니다.<br>다 같이 파이팅 합시다."
+  avatar: "/assets/images/users/jiseung.jpeg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "aaabbb4202@naver.com"
+      url: "jejuhjs@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://github.com/DongHyeonHDH"
+      url: "https://jejuhjs.tistory.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/klvlo"
+
+imjia:
+  name: "Jiah Lim"
+  bio: "안녕하세요!"
+  avatar: "/assets/images/users/lim.jpg"
+
+hyuna:
+  name: "Hyuna Song"
+  bio: "안녕하세요!"
+  avatar: "/assets/images/users/hyuna.jpg"
+
+jieon:
+  name: "Yang Jieon"
+  bio: "안녕하세요"
+  avatar: "/assets/images/users/jieon.jpg"
+
+
+donghyeon:
+  name: "donghyeon Hwang"
+  bio: "안녕하세요!"
+  avatar: "/assets/images/users/donghyeon.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "aaabbb4202@aaabbb4202.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://hdh4202com.notion.site/51266368ba30476b8f62338cc068cf21?v=62b2cb6b7277461e8fe3c90686b9e75b"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DongHyeonHDH"
+    
