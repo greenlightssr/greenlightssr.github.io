@@ -54,3 +54,8 @@ hyuna:
   name: "Hyuna Song"
   bio: "안녕하세요!"
   avatar: "/assets/images/users/hyuna.jpg"
+
+jieon:
+  name: "Yang Jieon"
+  bio: "안녕하세요"
+  avatar: "/assets/images/"
