@@ -7,7 +7,7 @@ categories:
   - sys/net security
 tags:
   - network
-author: Yang Jieon-
+author: jieon
 sidebar:
   nav: "categories"
 ---
