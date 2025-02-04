@@ -1,7 +1,7 @@
-```
+---
 layout: author
-author: Seonyeong_Byun
+author: seonyeong
 sidebar:
   nav: "categories"
-permalink: /authors/Seonyeong_Byun
-```
+permalink: /authors/seonyeong
+---

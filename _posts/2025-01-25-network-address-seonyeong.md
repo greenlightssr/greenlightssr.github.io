@@ -1,14 +1,14 @@
-```
+---
 layout: single
 title: "네트워크 주소"
 date: 2025-01-26
 last_modified_at: 2025-01-26
 categories:
   - sys/net security
-author: Seonyeong Byun
+author: seonyeong
 sidebar:
   nav: "categories"
-```
+---
 
 ## ※ 네트워크 주소
 
