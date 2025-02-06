@@ -67,7 +67,7 @@ donghyeon:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "aaabbb4202@naver.com"    -
+      url: "aaabbb4202@naver.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DonghyeonHDH"
