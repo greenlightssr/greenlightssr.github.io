@@ -54,3 +54,32 @@ hyuna:
   name: "Hyuna Song"
   bio: "안녕하세요!"
   avatar: "/assets/images/users/hyuna.jpg"
+
+jieon:
+  name: "Yang Jieon"
+  bio: "안녕하세요"
+  avatar: "/assets/images/users/jieon.jpg"
+
+donghyeon:
+  name: "donghyeon Hwang"
+  bio: "안녕하세요"
+  avatar: "/assets/images/users/donghyeon.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "aaabbb4202@naver.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/DonghyeonHDH"
+  
+seonyeong:
+  name: "Seonyeong Byun"
+  bio: "안녕하세요 공부합시다"
+  avatar: "/assets/images/users/seonyeong.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "seondori9@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/byunseonyeong"
