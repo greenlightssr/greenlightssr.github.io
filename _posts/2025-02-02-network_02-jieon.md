@@ -7,7 +7,7 @@ categories:
   - sys/net security
 tags:
   - network
-author: Yang Jieon-
+author: jieon
 sidebar:
   nav: "categories"
 ---
@@ -33,7 +33,7 @@ sidebar:
 
 
 
-#### 내부망 트래픽 흐름 
+#### 내부망 트래픽 흐름
 
 - 1단계 : DNS를 이용하여 수진지 IP주소 조회  (서버 ip를 안다면 생략 가능)
   + DNS 캐쉬 조회: ipconfig / displaydns

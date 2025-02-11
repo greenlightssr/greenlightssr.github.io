@@ -7,7 +7,7 @@ categories:
   - sys/net security
 tags:
   - network
-author: id(jieon)
+author: jieon
 sidebar:
   nav: "categories"
 ---
@@ -16,7 +16,7 @@ sidebar:
 
 ### 주제: 네트워크
 
-### 키워드:  
+### 키워드:
 
 ---
 
@@ -200,7 +200,7 @@ TCP/IP 프로토콜 스택은 크게 4계층으로 구성되어 있음
 
 
 ###  2. IEEE 802.3 & IEEE 802.2 구조
-IEEE 802.3 표준에서는 **Type 필드 대신 Length 필드** 를 사용하고,  
+IEEE 802.3 표준에서는 **Type 필드 대신 Length 필드** 를 사용하고,
 상위 계층을 구분하기 위해 **IEEE 802.2 헤더** 를 추가했다.
 
 ###  IEEE 802.3 필드
@@ -227,18 +227,18 @@ IEEE 802.3 표준에서는 **Type 필드 대신 Length 필드** 를 사용하고
 
 ## !! 문제 3개 !!
 
-### Q1. 
+### Q1.
 
-### Q2. 
+### Q2.
 
-### Q3. 
+### Q3.
 
 ---
 
 <br>
 
-### A1. 
+### A1.
 
-### A2. 
+### A2.
 
-### A3. 
+### A3.

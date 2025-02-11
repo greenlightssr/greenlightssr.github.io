@@ -7,7 +7,7 @@ categories:
   - sys/net security
 tags:
   - network
-author: Yang Jieon-
+author: jieon
 sidebar:
   nav: "categories"
 ---
@@ -21,7 +21,7 @@ sidebar:
 ---
 ### 수업 내용:
 
-- 논리적 주소: 
+- 논리적 주소:
   + Appletalk
   + IPX
   + IP (내 컴퓨터가 사용하는 주소)
@@ -63,7 +63,7 @@ sidebar:
   + 운영체제가 설치 시 할당 됨
   + 애플리케이션 설치 시 할당 됨
 
-- arp -a 
+- arp -a
 - arp 캐시 테이블 = IP address : MAC address
 
 - 게이트웨이 기능
@@ -123,7 +123,7 @@ sidebar:
 
 
 
-### Q3. Multicast IP/MAC 주소 범위    
+### Q3. Multicast IP/MAC 주소 범위
 
 ---
 
