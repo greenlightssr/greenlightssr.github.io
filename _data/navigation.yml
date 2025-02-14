@@ -20,11 +20,11 @@ main:
   #      url: "/tags/ruby/"
 
 categories:
+  - title: "About"
+    url: "/categories/about/"
   - title: "Python Automation"
     url: "/categories/python-automation/"
   - title: "Sys/Net Security"
     url: "/categories/sys-net-security/"
-  - title: "About"
-    url: "/categories/about/"
   - title: "App Security"
     url: "/categories/app-security/"
