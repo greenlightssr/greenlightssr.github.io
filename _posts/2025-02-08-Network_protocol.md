@@ -4,11 +4,11 @@ title: "network protocol"
 date: 2025-02-08
 last_modified_at: 2025-02-08
 categories:
-  - network
+  - sys/net security
 author: doyoon
 tags:
-  -network
-  -protocol
+  - network
+  - protocol
 ---
 # 네트워크 프로토콜과 관련된 개념 정리
 

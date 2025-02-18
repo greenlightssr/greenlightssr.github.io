@@ -4,10 +4,10 @@ title : "네트워크 계층 과 TCP/IP"
 date: 2025-02-08
 last_modified_at: 2025-02-08
 categories:
-  - network
+  - sys/net security
 author: doyoon
 tags:
-  -network
+  - network
 sidebar:
   nav: "categories"
 ---

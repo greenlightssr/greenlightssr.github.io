@@ -4,10 +4,10 @@ title: "Application Security"
 date: 2025-02-16
 last_modified_at: 2025-02-16
 categories:
-  - application
+  - application security
 author: doyoon
 tags:
-  -application
+  - application
 ---
 #애플리케이션 보안
 
