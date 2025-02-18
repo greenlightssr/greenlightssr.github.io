@@ -7,8 +7,8 @@ categories:
   - network
 author: doyoon
 tags:
-  -network
-  -protocol
+  - network
+  - protocol
 ---
 # 네트워크 프로토콜과 관련된 개념 정리
 

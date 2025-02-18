@@ -7,7 +7,7 @@ categories:
   - network
 author: doyoon
 tags:
-  -network
+  - network
 sidebar:
   nav: "categories"
 ---

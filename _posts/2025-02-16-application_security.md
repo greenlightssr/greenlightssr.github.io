@@ -7,7 +7,7 @@ categories:
   - application
 author: doyoon
 tags:
-  -application
+  - application
 ---
 #애플리케이션 보안
 
