@@ -4,7 +4,7 @@ title: "파이썬 웹 스크래핑"
 date: 2025-01-30
 last_modified_at: 2025-01-30
 categories:
-  - python web scraping
+  - python automation
 tags:
   - python
 author: hyuna
@@ -25,7 +25,7 @@ sidebar:
 
 
 
-## **2. 파서 종류** 
+## **2. 파서 종류**
 - **html.parser** : 간단하고 쉬우나 느릴 수 있음.
 - **lxml** : 빠름. 별도 설치 필요
 - **html5lib** : 웹 브라우저가 HTML5를 처리하는 방식을 모방. 별도 설치 필
@@ -35,7 +35,7 @@ sidebar:
 ## **3. Beautiful Soup**
 - HTML과 XML 파일에서 데이터 추출을 위한 파이썬 라이브러리
 - **pip install beautifulsoup4** 로 별도 설치 필요
-- **웹 스크래핑 프로세스** 
+- **웹 스크래핑 프로세스**
     1) HTML 가져오기
     2) Beautiful Soup 객체 생성
     3) 데이터 추출
@@ -43,7 +43,7 @@ sidebar:
 
 
 ## **4. Beautiful Soup로 HTML 문서 파싱**
-1) HTML 문서 
+1) HTML 문서
 ```python
 from bs4 import BeautifulSoup
 
@@ -88,7 +88,7 @@ print(soup.prettify())
 ## **5. Beautiful Soup 메서드**
 - **find_all()**: 지정된 태그의 모든 자손 검색 및 설정된 필터에 맞는 모든 결과 검색하여 리스트로 반환
 - **find()**
-    - 하나의 결과만 찾고 싶을 때 사용. 
+    - 하나의 결과만 찾고 싶을 때 사용.
     - 찾지 못했을 때 None 반환.
 - **get_text()**
     - 문서나 태그 안에 인간이 읽을 수 있는 텍스트만 원할 경우 사용

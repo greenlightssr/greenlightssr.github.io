@@ -4,7 +4,7 @@ title: "system_security"
 date: 2025-02-16
 last_modified_at: 2025-02-16
 categories:
-  - system
+  - sys/net security
 author: doyoon
 sidebar:
 nav: "categories"
